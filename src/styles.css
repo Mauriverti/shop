@@ -1,1 +1,15 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@import url('app/core/css/colors.css');
+
+body {
+  margin: 0px;
+}
+
+.space-between {
+  justify-content: space-between
+}
+
+.container {
+  margin: 16px;
+}

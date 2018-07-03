@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--blue);
+  margin: 0px;
+  height: 45px;
+  align-items: center;
+}
+
+.header mat-icon {
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+}
