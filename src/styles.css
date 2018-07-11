@@ -1,15 +1,28 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
-
 @import url('app/core/css/colors.css');
 
 body {
   margin: 0px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .space-between {
   justify-content: space-between
 }
 
+.my-container--center {
+  align-items: center;
+}
+
 .container {
   margin: 16px;
+}
+
+.layout-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.full-width {
+  flex: 1;
 }
