@@ -1,1 +1,14 @@
-recipe-item
+div.column-container
+  div
+    button(mat-raised-button color="primary") New Recipe
+
+  mat-divider
+
+  div.layout-row.space-between(*ngFor='let recipe of recipes')
+    mat-card.full-width
+      mat-card-header
+        img(mat-card-avatar src='{{ recipe.imagePath }}' alt='{{ recipe.name }}')
+        mat-card-title {{ recipe.name }}
+        mat-card-subtitle {{ recipe.description }}
+
+  recipe-item

@@ -26,3 +26,11 @@ body {
 .full-width {
   flex: 1;
 }
+
+.row-container > *:not(:last-child) {
+  margin-right: 8px;
+}
+
+.column-container > *:not(:last-child) {
+  margin-bottom: 8px;
+}

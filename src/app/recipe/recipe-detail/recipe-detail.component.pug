@@ -1,1 +1,18 @@
-p reciple detail
+mat-card(style='min-height: 217px;')
+  p image
+
+  h2 Recipe Name
+
+  div.row-container
+    button( mat-icon-button matTooltip='To shop list')
+      mat-icon( aria-label='To shop list') shopping_cart
+    button( mat-icon-button matTooltip='Edit recipe')
+      mat-icon( aria-label='Edit recipe') edit
+    button( mat-icon-button matTooltip='Delete recipe')
+      mat-icon( aria-label='Delete recipe') delete
+
+  div
+    p Description
+  
+  div
+    p Ingredients
