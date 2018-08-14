@@ -1,6 +1,7 @@
 import { AngularMaterialModule } from '../modules/angular-material.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/header/header.component';
@@ -17,7 +18,7 @@ import { ShoppingListComponent } from './shopping/shopping-list/shopping-list.co
     RecipeComponent, RecipeDetailComponent, RecipeItemComponent, RecipeListComponent,
     ShoppingEditComponent, ShoppingListComponent],
   imports: [
-    BrowserModule, AngularMaterialModule
+    BrowserModule, AngularMaterialModule, FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -34,3 +34,7 @@ body {
 .column-container > *:not(:last-child) {
   margin-bottom: 8px;
 }
+
+.pointer {
+  cursor: pointer;
+}

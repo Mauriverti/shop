@@ -1,1 +1,12 @@
-p shopping edit
+form(fxLayout='row' fxLayoutGap='8px' fxLayoutAlign='start center')
+  mat-form-field(fxFlex='70')
+    input(matInput type='text' placeholder='Item')
+  mat-form-field
+    input(matInput type='number' placeholder='Amount')
+
+  button(mat-icon-button type='button' aria-label='Add item to shopping list' matTooltip='Add item to shopping list')
+    mat-icon add
+  button(mat-icon-button type='button' aria-label='Remove item from shopping list' matTooltip='Remove item from shopping list')
+    mat-icon delete
+  button(mat-icon-button type='button' aria-label='clear shopping list' matTooltip='clear shopping list')
+    mat-icon clear

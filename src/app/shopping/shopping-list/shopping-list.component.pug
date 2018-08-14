@@ -1,3 +1,5 @@
 shopping-edit
 hr
-p shopping list
+
+mat-card.full-width(*ngFor='let ingredient of shoppingList')
+  p {{ingredient.name}} ({{ingredient.amount}} {{ingredient.quantity}} )
